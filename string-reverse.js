@@ -29,6 +29,6 @@ Object.defineProperty( String.prototype, "reverse",
 				.replace( regexSurrogatePairs, "$2$1" )
 				.split( "" )
 				.reverse( )
-				.join( "" );	
+				.join( "" );
 		}
 	} );
